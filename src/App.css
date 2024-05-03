@@ -10,6 +10,8 @@
 .listText {
   color: dodgerblue;
   list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .deleteButton {
@@ -17,4 +19,9 @@
   background-color: red;
   margin-left: 1em;
   border: none;
+  cursor: pointer;
+  transition: all ease-in 0.2s;
+}
+.deleteButton:hover {
+  background-color: darkred;
 }
